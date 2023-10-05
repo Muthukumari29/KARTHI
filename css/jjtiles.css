@@ -1,0 +1,100 @@
+body {
+  background: url("../image/color.jpg");
+  background-size: cover;
+  /*background-position: center;*/
+  height: 100vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.jj1 {
+  display: flex;
+}
+.jj1 h1 {
+  margin: 7px;
+  font-family: "brush script mt";
+  font-style: italic;
+  font-size: 2em;
+  flex: 3;
+}
+.jj1 label {
+  font-size: 1.5em;
+  flex: 2;
+  margin: 17px;
+}
+.jj1 button {
+  width: 80px;
+  height: 50px;
+  flex: 1;
+  background-color: dodgerblue;
+  border-color: dodgerblue;
+  border-radius: 8px;
+  font-size: 1em;
+}
+.start {
+  width: 500px;
+  margin: 100px auto;
+  /*margin: 150px auto;*/
+  padding: 10px 20px 30px 10px;
+  border: 2px solid blue;
+  border-radius: 8px;
+  /*width: 100%;*/
+  box-sizing: border-box;
+  /*min-width: 40%;*/
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+.new {
+  background-color: blueviolet;
+  border: 1px solid blueviolet;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 0.75em;
+  padding: 5px;
+}
+.jjj input {
+  margin-top: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  /* box-sizing: 1px; */
+  border-radius: 5px;
+  min-width: 100%;
+  font-size: 0.75em;
+}
+.jjj1 {
+  font-size: 1.5em;
+  display: flex;
+}
+.jjj1 .dt1 {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 0.5em;
+}
+.jjj1 input {
+  border-radius: 5px;
+  flex: 2;
+  font-size: 0.5em;
+  padding: 5px 10px;
+}
+
+.jjjda {
+  box-sizing: border-box;
+
+  min-width: 100%;
+  padding-top: 10px;
+  display: flex;
+}
+.jjjda .data4 {
+  padding: 5px;
+  margin-right: 5px;
+  flex: 2;
+  font-size: 0.75em;
+  border-radius: 5px;
+}
+.jjjda .data5 {
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  flex: 2;
+  font-size: 0.75em;
+}
