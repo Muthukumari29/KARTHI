@@ -1,8 +1,6 @@
 body {
-  /*background: url("../image/color.jpg");*/
-  background-image:linear-gradientgit(0deg,#fff,#ffdee9 50%,#b5daff);
+  background-image:linear-gradient(0deg,#fff,#ffdee9 50%,#b5daff);
   background-size: cover;
-  /*background-position: center;*/
   height: 100vh;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -33,11 +31,9 @@ body {
 .start {
   width: 500px;
   margin: 100px auto;
-  /*margin: 150px auto;*/
   padding: 10px 20px 30px 10px;
   border: 2px solid blue;
   border-radius: 8px;
-  /*width: 100%;*/
   box-sizing: border-box;
   /*min-width: 40%;*/
   display: flex;
